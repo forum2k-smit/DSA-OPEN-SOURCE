@@ -1,6 +1,9 @@
-""" Regex or regular expression is a way to search string in a text, it is more powerful and flexible than other 
+""" 
+Regex or regular expression is a way to search string in a text, it is more powerful and flexible than other 
 traditional seraching techniques.
+
 """
+
 """ Uncomment to run codes """
 # re = regex = regular expressions 
 import re 
