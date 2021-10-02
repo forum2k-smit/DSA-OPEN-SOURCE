@@ -6,6 +6,7 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 ## How to Paritcipate?
 
 - Go to https://hacktoberfest.digitalocean.com/ and register with github.
+- Share your details with us so that we can find you : https://forms.office.com/r/9Zywhm2S7X
 - Find your question and solve it.
 
 
