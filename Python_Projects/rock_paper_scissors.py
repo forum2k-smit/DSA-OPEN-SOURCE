@@ -7,7 +7,6 @@ comp_wins = 0
 draws = 0
 
 options = ["rock", "paper", "scissor"]
-
 while True:
     user_pick = input("Pick Rock/Paper/Scissors to play or q to quit: ").lower()
 
