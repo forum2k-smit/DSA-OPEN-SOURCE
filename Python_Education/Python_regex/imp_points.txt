@@ -1,0 +1,44 @@
+How we could use regex:
+1. import the re module in python.
+2. Use grep in linux command line.
+
+### Using re module :-
+1. search function - re.search(r"rawstring","wheretosearch") function returns match object with the index where
+the raw string is located.
+
+2. We can also use special characters for searching.
+
+3. One can use re.IGNORECASE which ignores case sensitivity. 
+
+4. Charater classes written in square brackets and anything inside it is used to search. 
+For Ex: re.search(r"[Pp]ython", "python") --> searches for lower or upper case p python.
+
+4(a). We can also use dash - charater to set a range of values.
+ForEx: re.search(r"[a-z]way","highway") --> will accept charater from a to z before way i.e hway.
+
+4(b). We can also combine ranges just like [a-zA-Z0-9]. 
+Charaters which isnt in the string use [^followed by charaters or range].
+
+4(c). To search for alternatives use pipe symbol '|' which uses OR logic. 
+forEx: re.search(r"cat|dog", "cat")
+
+4(d). Use findall which finds all characters in a list.
+
+### Using Grep which is a linux regex command line.
+
+1. '.' charater is used to represent any charater it is a wildcard.
+For Ex: grep v.vi <--file location-->
+will search all lines or strings matching with v(any charater)vi.
+
+2. The -i means search is case independent(both upper and lower case).
+For Ex: grep -i python <--file location-->
+will search for python string independent of case.
+
+3. ^-circumflex sign or start string and $-dollar sign is end string.
+For Ex: grep ^python <--file location--> 
+will search any string starting with python.
+
+grep python$ <--file location--> 
+will search any string ending with python.
+
+4. ' . , ^ , $ ' are all special characters in grep.
