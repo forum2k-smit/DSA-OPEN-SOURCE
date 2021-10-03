@@ -3,11 +3,6 @@
 ## About
 This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Hacktoberfest 2021.
 
-## Participating Students
-<a href="https://github.com/forum2k-smit/DSA-OPEN-SOURCE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=forum2k-smit/DSA-OPEN-SOURCE" />
-</a>
-
 ## How to Paritcipate?
 
 - Go to https://hacktoberfest.digitalocean.com/ and register with github.
@@ -29,5 +24,19 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 
 ### You are done we will evaluate your Pull Request and If every thing goes well you will recive a Certificate from Department of Information Technology
 
+## Participating Students
+<!-- START:github_contributors -->
+<table><tr><td><b>Profile</b></td><td><b>Username</b></td><td><b>Contributions</b></td></tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/34997913?v=4' height='50'/></td><td><a href="https://github.com/rishabh-live/" target="_blank">rishabh-live</a></td><td>23</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/60281484?v=4' height='50'/></td><td><a href="https://github.com/vivaan19/" target="_blank">vivaan19</a></td><td>9</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/73451350?v=4' height='50'/></td><td><a href="https://github.com/jayantaadhikary/" target="_blank">jayantaadhikary</a></td><td>5</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/51321665?v=4' height='50'/></td><td><a href="https://github.com/Shreyansh252001/" target="_blank">Shreyansh252001</a></td><td>4</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/77929632?v=4' height='50'/></td><td><a href="https://github.com/DevGautam2000/" target="_blank">DevGautam2000</a></td><td>3</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/71604531?v=4' height='50'/></td><td><a href="https://github.com/HarshitAditya27/" target="_blank">HarshitAditya27</a></td><td>2</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/55504462?v=4' height='50'/></td><td><a href="https://github.com/dev-bot1/" target="_blank">dev-bot1</a></td><td>2</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/60337727?v=4' height='50'/></td><td><a href="https://github.com/vasavraj/" target="_blank">vasavraj</a></td><td>1</tr>
+</table>
+
+<!-- END:github_contributors -->
 
 &copy; 2021, Forum2k, Department of Information Technology, SMIT

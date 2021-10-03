@@ -1,0 +1,29 @@
+name: Update Contributors List
+
+on:
+  schedule:
+    - cron: '1/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update this repo's README with Contributors
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.7' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+      - name: Update Github Recent Activity
+        run: python ./.github/scripts/update-github-contributors.py
+      - name: global config
+        run : |
+              git config --global user.email "rishabh12536@gmail.com"
+              git config --global user.name "Rishabh"
+      - name: Update Activity Changes
+        run: |
+             git add . 
+             git commit -m "[BOT] Contributors List Updated"
+             git fetch origin main 
+             git push origin main
