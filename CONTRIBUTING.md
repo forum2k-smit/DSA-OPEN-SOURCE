@@ -1,3 +1,9 @@
+## How to Participate?
+
+- Go to https://hacktoberfest.digitalocean.com/ and register with github.
+- Share your details with us so that we can find you : https://forms.office.com/r/9Zywhm2S7X
+- Find your question and solve it.
+
 ## How to Contribute?
 
 **Step 1**: Go to Issues tab and search for the issue of your desire. If you find an issue intresting ask the maintainer to assign that issue to you. 
