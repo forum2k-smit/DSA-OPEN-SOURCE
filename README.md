@@ -4,7 +4,7 @@
 This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Hacktoberfest 2021.
 
 ## Participating Students
-<a href="https://github.com/rishabh-live/3x-plus-1/graphs/contributors">
+<a href="https://github.com/forum2k-smit/DSA-OPEN-SOURCE/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=forum2k-smit/DSA-OPEN-SOURCE" />
 </a>
 
