@@ -14,5 +14,5 @@ const linearSearch = (array, num) => {
   return -1;
 };
 
-linearSearch(numbers, 7); //we call the function with the array and the number we want to search (7 in this case). It will return the index, ie, 2.
-linearSearch(numbers, 20); //we call the function with the array and the number we want to search (20 in this case). Since this number isn't present, we return -1.
+linearSearch(arrayToBeSearched, 7); //we call the function with the array and the number we want to search (7 in this case). It will return the index, ie, 2.
+linearSearch(arrayToBeSearched, 20); //we call the function with the array and the number we want to search (20 in this case). Since this number isn't present, we return -1.
