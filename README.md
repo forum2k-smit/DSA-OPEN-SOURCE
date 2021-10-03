@@ -27,11 +27,11 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 ## Participating Students
 <!-- START:github_contributors -->
 <table><tr><td><b>Profile</b></td><td><b>Username</b></td><td><b>Contributions</b></td></tr>
-<tr><td><img src='https://avatars.githubusercontent.com/u/34997913?v=4' height='50'/></td><td><a href="https://github.com/rishabh-live/" target="_blank">rishabh-live</a></td><td>23</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/34997913?v=4' height='50'/></td><td><a href="https://github.com/rishabh-live/" target="_blank">rishabh-live</a></td><td>37</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/60281484?v=4' height='50'/></td><td><a href="https://github.com/vivaan19/" target="_blank">vivaan19</a></td><td>9</tr>
+<tr><td><img src='https://avatars.githubusercontent.com/u/77929632?v=4' height='50'/></td><td><a href="https://github.com/DevGautam2000/" target="_blank">DevGautam2000</a></td><td>6</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/73451350?v=4' height='50'/></td><td><a href="https://github.com/jayantaadhikary/" target="_blank">jayantaadhikary</a></td><td>5</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/51321665?v=4' height='50'/></td><td><a href="https://github.com/Shreyansh252001/" target="_blank">Shreyansh252001</a></td><td>4</tr>
-<tr><td><img src='https://avatars.githubusercontent.com/u/77929632?v=4' height='50'/></td><td><a href="https://github.com/DevGautam2000/" target="_blank">DevGautam2000</a></td><td>3</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/71604531?v=4' height='50'/></td><td><a href="https://github.com/HarshitAditya27/" target="_blank">HarshitAditya27</a></td><td>2</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/55504462?v=4' height='50'/></td><td><a href="https://github.com/dev-bot1/" target="_blank">dev-bot1</a></td><td>2</tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/60337727?v=4' height='50'/></td><td><a href="https://github.com/vasavraj/" target="_blank">vasavraj</a></td><td>1</tr>
