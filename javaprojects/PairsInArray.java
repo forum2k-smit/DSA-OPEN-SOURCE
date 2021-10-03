@@ -1,5 +1,10 @@
 package javaprojects;
 
+/* 
+        AUTHOR: GAUTAM CHANDRA SAHA
+        DATE & TIME: SUNDAY 3 OCT, 2021, AT 6:40 PM
+*/
+
 import java.util.Map;
 import java.util.LinkedHashMap;
 
@@ -7,18 +12,6 @@ class PairsInArray {
     int[] nums = { 8, 7, 2, 5, 3, 1 };
     int target = 10;
 
-    // O(n^2) approach
-    /*
-     * public void findPairOnSquare(int[] A, int target) {
-     * 
-     * for (int i = 0; i < nums.length - 1; i++) {
-     * 
-     * for (int j = i + 1; j < nums.length; j++) { if (nums[i] + nums[j] == target)
-     * { System.out.println("Pair found (" + nums[i] + ", " + nums[j] + ")"); } } }
-     * System.out.println("Pair not found"); }
-     */
-
-    // O(n) approach
     public void findPairOn() {
 
         int flag = 0;
