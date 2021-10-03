@@ -40,7 +40,11 @@ for x in data:
     #     pass
     profilePic = x["avatar_url"]
     username = x["login"]
-    contributions = x=["contributions"]
+    contributions = str(x["contributions"])
+    print(x)
+    print(profilePic)
+    print(username)
+    print(contributions)
 
     writeData = writeData +"<tr><td><img src='"+profilePic+"' height='50'/></td><td><a href=\"https://github.com/" +username+"\" target=\"_blank\">"+username+"</a></td><td>"+contributions+"</tr>\n"
 
