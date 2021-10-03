@@ -3,11 +3,6 @@
 ## About
 This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Hacktoberfest 2021.
 
-## Participating Students
-<a href="https://github.com/forum2k-smit/DSA-OPEN-SOURCE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=forum2k-smit/DSA-OPEN-SOURCE" />
-</a>
-
 ## How to Paritcipate?
 
 - Go to https://hacktoberfest.digitalocean.com/ and register with github.
@@ -29,5 +24,8 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 
 ### You are done we will evaluate your Pull Request and If every thing goes well you will recive a Certificate from Department of Information Technology
 
+## Participating Students
+<!-- START:github_contributors -->
+<!-- END:github_contributors -->
 
 &copy; 2021, Forum2k, Department of Information Technology, SMIT
