@@ -12,7 +12,7 @@ class BinarySearch
 		{
 			int middle = start + (end - l) / 2;
 
-			// Check if x is present at mid
+			// Check if x is present at middle
 			if (arr[middle] == x)
 				return middle;
 
