@@ -1,28 +1,28 @@
 import java.util.*;
-// Creating a function for the binary search algorithm
+// Creating a class for the binary search algorithm without recursion
 class BinarySearch 
 {
 	// Returns index of x if it is present in arr[]
 	// else we will return -1
 	int binarySearch(int arr[], int x)
 	{
-		int l = 0, r = arr.length - 1;
+		int start = 0, end = arr.length - 1;
         	//Looping to the total number of items input by the user
-		while (l <= r) 
+		while (start <= end)  //start and end are defined as variables for index in an array
 		{
-			int m = l + (r - l) / 2;
+			int middle = start + (end - l) / 2;
 
 			// Check if x is present at mid
-			if (arr[m] == x)
-				return m;
+			if (arr[middle] == x)
+				return middle;
 
 			// If x greater, ignore left half
-			if (arr[m] < x)
-				l = m + 1;
+			if (arr[middle] < x)
+				start = middle + 1;
 
 			// If x is smaller, ignore right half
 			else
-				r = m - 1;
+				end = middle - 1;
 		}
 
 		// if we reach here, then element was not present
