@@ -1,0 +1,11 @@
+x,y = input(), input()
+
+print(x," ",y," Variables before swap")
+
+x = x + y
+
+y = x - y
+
+x = x - y
+
+print(x," ",y,"Variables after swap")
