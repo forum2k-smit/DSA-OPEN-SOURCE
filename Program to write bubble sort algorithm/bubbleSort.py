@@ -17,7 +17,7 @@ lst=[4,5,-1,-3,5,9,10,11,99]
 #    in the for loop we are comparing with i and i+1th values if we initialize to 0, it will
 #    go out of range.
 
-# 3. The inner for is for comparing the values and outer while loop is for checking that, if
+# 3. The inner for loop is for comparing the values and outer while loop is for checking that, if
 #    dec will become len(lst)-1 it will stop as we cannot decrement more.
 
 # 4. The sorted values will be modified in the same list.
