@@ -1,17 +1,15 @@
 # DSA-OPEN-SOURCE
 
+> * Note : This repo is no more participating in Hactoberfest due to lot of spam PRs. You can still contribute for learning purposes.*
+
 ## About
-This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Hacktoberfest 2021.
+This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Open Source Contributions.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)&nbsp;
 ![GitHub issues](https://img.shields.io/github/issues/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)&nbsp;
 ![GitHub repo size](https://img.shields.io/github/repo-size/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)
 
-## How to Paritcipate?
 
-- Go to https://hacktoberfest.digitalocean.com/ and register with github.
-- Share your details with us so that we can find you : https://forms.office.com/r/9Zywhm2S7X
-- Find your question and solve it.
 
 
 ## How to Contribute?
