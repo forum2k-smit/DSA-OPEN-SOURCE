@@ -1,65 +1,111 @@
-from tkinter import *
-# It takes the position of the currently clicked cell and checks whether the gamestaistus  
-# True or not (i.e the game is over or not) and if the game is not over yet, it checks for the position and then if the corresponding cell is empty it changes its display value
-def click(r,c):
-    global usr
-    global gamestatus
-    #usr: this variable help us to identify the current player (x or o)
-    #gamestatus: it is a flag variable which indicates the status of the game ie the game is over or not. Gamestatus= False indicates game is over
-    if(usr=='X' and grd[r][c]==0 and gamestatus==True):
-        # grd: It is a 3×3 matrix which stores the values of all the cells
-        grd[r][c]='X'
-        usr='O'
-    #curr: It is a list of tkinter buttons which will click() everytime it is clicked
-        curr[r][c].configure(text='X',bg="white")
+#Implementation of Two Player Tic-Tac-Toe game in Python.
 
-    if(usr=='O' and grd[r][c]==0 and gamestatus==True):
-        grd[r][c]='O'
-        usr='X'
-        curr[r][c].configure(text='O',bg="gray")
+''' We will make the board using dictionary 
+    in which keys will be the location(i.e : top-left,mid-right,etc.)
+    and initialliy it's values will be empty space and then after every move 
+    we will change the value according to player's choice of move. '''
+
+theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
+            '4': ' ' , '5': ' ' , '6': ' ' ,
+            '1': ' ' , '2': ' ' , '3': ' ' }
+
+board_keys = []
+
+for key in theBoard:
+    board_keys.append(key)
+
+''' We will have to print the updated board after every move in the game and 
+    thus we will make a function in which we'll define the printBoard function
+    so that we can easily print the board everytime by calling this function. '''
+
+def printBoard(board):
+    print(board['7'] + '|' + board['8'] + '|' + board['9'])
+    print('-+-+-')
+    print(board['4'] + '|' + board['5'] + '|' + board['6'])
+    print('-+-+-')
+    print(board['1'] + '|' + board['2'] + '|' + board['3'])
+
+# Now we'll write the main function which has all the gameplay functionality.
+def game():
+
+    turn = 'X'
+    count = 0
+
+
+    for i in range(10):
+        printBoard(theBoard)
+        print("It's your turn," + turn + ".Move to which place?")
+
+        move = input()        
+
+        if theBoard[move] == ' ':
+            theBoard[move] = turn
+            count += 1
+        else:
+            print("That place is already filled.\nMove to which place?")
+            continue
+
+        # Now we will check if player X or O has won,for every move after 5 moves. 
+        if count >= 5:
+            if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")                
+                break
+            elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left side
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break
+            elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break
+            elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right side
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break 
+            elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break
+            elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
+                printBoard(theBoard)
+                print("\nGame Over.\n")                
+                print(" **** " +turn + " won. ****")
+                break 
+
+        # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
+        if count == 9:
+            print("\nGame Over.\n")                
+            print("It's a Tie!!")
+
+        # Now we have to change the player after every move.
+        if turn =='X':
+            turn = 'O'
+        else:
+            turn = 'X'        
     
-    checkWin()
- #This function updates gamestatus by checking every row, column and diagonal.
- #If every cell of a particular row, column or diagonal is same, gamestatus is set to false indicating game is over now
-def checkWin():
-    global gamestatus
-    for i in range(3):
-        if grd[0][i]==grd[1][i]==grd[2][i]!=0:
-            for j in range(3):
-                curr[j][i].config(bg="snow4",fg="white")
-            gamestatus=False
-    for i in range(3):            
-        if grd[i][0]==grd[i][1]==grd[i][2]!=0:
-            for j in range(3):
-                curr[i][j].config(bg="snow4",fg="white")
-            gamestatus=False
-    if grd[0][2]==grd[1][1]==grd[2][0]!=0:
-            curr[0][2].config(bg="snow4",fg="white")
-            curr[1][1].config(bg="snow4",fg="white")
-            curr[2][0].config(bg="snow4",fg="white")
-            gamestatus=False
-    if grd[0][0]==grd[1][1]==grd[2][2]!=0:
-            for j in range(3):
-                curr[j][j].config(bg="snow4",fg="white")
-            gamestatus=False
- #to create GUI       
-root=Tk()
-root.title("Tic Tac Toe")
+    # Now we will ask if player wants to restart the game or not.
+    restart = input("Do want to play Again?(y/n)")
+    if restart == "y" or restart == "Y":  
+        for key in board_keys:
+            theBoard[key] = " "
 
-usr="O"
-gamestatus=True
-grd=[[0,0,0],
-     [0,0,0],
-     [0,0,0]]
+        game()
 
-curr=[[0,0,0],
-     [0,0,0],
-     [0,0,0]]
-
-for i in range(3):
-    for j in range(3):
-        curr[i][j]=Button(font=('arial',30,'bold'),width=4,
-        command=lambda r=i, c=j:click(r,c))
-        curr[i][j].grid(row=i,column=j)
-
-mainloop()
+if __name__ == "__main__":
+    game()
