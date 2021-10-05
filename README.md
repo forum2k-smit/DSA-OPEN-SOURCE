@@ -1,6 +1,6 @@
 # DSA-OPEN-SOURCE
 
-> * Note : This repo is no more participating in Hactoberfest due to lot of spam PRs. You can still contribute for learning purposes.*
+> **Note : This repo is no more participating in Hactoberfest due to lot of spam PRs. You can still contribute for learning purposes.**
 
 ## About
 This repository is for Students of Sikkim Manipal Institute of Technology to let them be able to participate in Open Source Contributions.
