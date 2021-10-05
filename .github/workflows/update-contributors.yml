@@ -19,11 +19,11 @@ jobs:
         run: python ./.github/scripts/update-github-contributors.py
       - name: global config
         run : |
-              git config --global user.email "rishabh12536@gmail.com"
-              git config --global user.name "Rishabh"
+              git config --global user.email github-actions@github.com
+              git config --global user.name github-actions
       - name: Update Activity Changes
         run: |
              git add . 
-             git commit -m "[BOT] Contributors List Updated"
+             git commit -m "[BOT] 🤖 Contributors List Updated"
              git fetch origin main 
              git push origin main
