@@ -5,8 +5,7 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)&nbsp;
 ![GitHub issues](https://img.shields.io/github/issues/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)&nbsp;
-![GitHub repo size](https://img.shields.io/github/repo-size/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)&nbsp;
-![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2021/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/forum2k-smit/DSA-OPEN-SOURCE?style=for-the-badge)
 
 ## How to Paritcipate?
 
