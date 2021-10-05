@@ -24,6 +24,6 @@ jobs:
       - name: Update Activity Changes
         run: |
              git add . 
-             git commit -m "[BOT] Contributors List Updated"
+             git commit -m "[BOT] 🤖 Contributors List Updated"
              git fetch origin main 
              git push origin main
