@@ -2,7 +2,7 @@ import urllib.request
 import json
 
 REPO = "forum2k-smit/DSA-OPEN-SOURCE"
-DISPLAY_MAINTAINER_TAG = true
+DISPLAY_MAINTAINER_TAG = True
 NAME_MAINTAINER = "rishabh-live"
 
 f = open("./README.md", "r")
@@ -28,7 +28,7 @@ for x in data:
     profilePic = x["avatar_url"]
     username = x["login"]
     contributions = str(x["contributions"])
-    if DISPLAY_MAINTAINER_TAG == true:
+    if DISPLAY_MAINTAINER_TAG == True:
         if username == "rishabh-live":
             username = username + " (maintainer)"
 
