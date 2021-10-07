@@ -2,6 +2,8 @@ import urllib.request
 import json
 
 REPO = "forum2k-smit/DSA-OPEN-SOURCE"
+DISPLAY_MAINTAINER_TAG = true
+NAME_MAINTAINER = "rishabh-live"
 
 f = open("./README.md", "r")
 
@@ -26,6 +28,9 @@ for x in data:
     profilePic = x["avatar_url"]
     username = x["login"]
     contributions = str(x["contributions"])
+    if DISPLAY_MAINTAINER_TAG == true:
+        if username == "rishabh-live":
+            username = username + " (maintainer)"
 
     writeData = writeData +"<tr><td><img src='"+profilePic+"' height='50' style=\"border-radius: 50%;-webkit-box-shadow: 0px 0px 15px 0px rgba(135, 135, 135, 1);-moz-box-shadow:0px 0px 15px 0px rgba(135, 135, 135, 1);box-shadow:0px 0px 15px 0px rgba(135, 135, 135, 1);border: 5px solid #1C6EA4;\"/></td><td><a href=\"https://github.com/" +username+"/\" target=\"_blank\" style=\"color:white;\"><button style=\" width:100%; background: #42aef5;  background-image: -webkit-linear-gradient(top, #42aef5, #2980b9)background-image: -moz-linear-gradient(top, #42aef5, #2980b9);background-image: -ms-linear-gradient(top, #42aef5, #2980b9);background-image: -o-linear-gradient(top, #42aef5, #2980b9);background-image: linear-gradient(to bottom, #42aef5, #2980b9);-webkit-border-radius: 60;-moz-border-radius: 60;border-radius: 60px;font-family: Arial;color: #ffffff;font-size: 15px;padding: 10px 20px 10px 20px;text-decoration: none;\">"+username+"</button></a></td><td><label style=\"font-size:18px;color:red; font-weight:bold;\">"+contributions+"</label></td></tr>\n"
 
