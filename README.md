@@ -26,7 +26,7 @@ This repository is for Students of Sikkim Manipal Institute of Technology to let
 
 ### You are done we will evaluate your Pull Request and If every thing goes well you will recive a Certificate from Department of Information Technology
 
-## Participating Students
+## Contributing Students
 <!-- START:github_contributors -->
 <center><table style="width:100%;"><tr><td><b>Profile</b></td><td><b>Username</b></td><td><b>Contributions</b></td></tr>
 <tr><td><img src='https://avatars.githubusercontent.com/u/34997913?v=4' height='50' style="border-radius: 50%;-webkit-box-shadow: 0px 0px 15px 0px rgba(135, 135, 135, 1);-moz-box-shadow:0px 0px 15px 0px rgba(135, 135, 135, 1);box-shadow:0px 0px 15px 0px rgba(135, 135, 135, 1);border: 5px solid #1C6EA4;"/></td><td><a href="https://github.com/rishabh-live/" target="_blank" style="color:white;"><button style=" width:100%; background: #42aef5;  background-image: -webkit-linear-gradient(top, #42aef5, #2980b9)background-image: -moz-linear-gradient(top, #42aef5, #2980b9);background-image: -ms-linear-gradient(top, #42aef5, #2980b9);background-image: -o-linear-gradient(top, #42aef5, #2980b9);background-image: linear-gradient(to bottom, #42aef5, #2980b9);-webkit-border-radius: 60;-moz-border-radius: 60;border-radius: 60px;font-family: Arial;color: #ffffff;font-size: 15px;padding: 10px 20px 10px 20px;text-decoration: none;">rishabh-live</button></a></td><td><label style="font-size:18px;color:red; font-weight:bold;">131</label></td></tr>
