@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
- 
+
+//Search Function for finding the element, n is size of array. x is the element to be found
 int search(int arr[], int n, int x)
 {
     int i;
@@ -15,6 +16,7 @@ int main(void)
 {
     int arr[] = { 2, 3, 4, 10, 40 };
     int x = 10;
+ //calculates size of array
     int n = sizeof(arr) / sizeof(arr[0]);
    
     // Function call
